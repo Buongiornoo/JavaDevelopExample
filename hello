@@ -1,0 +1,22 @@
+public Biz_leave(Integer id, Employee c_emp, Date starttime, Date endtime, 
+			Double leaveday, String reason, String status, String leavetype, 
+ 			Employee n_emp, String opinion, Date create_time, Date modif_time) { 
+ 		super(); 
+ 		this.id = id; 
+ 		this.c_emp = c_emp; 
+ 		this.starttime = starttime; 
+ 		this.endtime = endtime; 
+ 		this.leaveday = leaveday; 
+ 		this.reason = reason; 
+ 		this.status = status; 
+ 		this.leavetype = leavetype; 
+ 		this.n_emp = n_emp; 
+ 		this.opinion = opinion; 
+ 		this.create_time = create_time; 
+ 		this.modif_time = modif_time; 
+	} 
+
+ 
+ 	public Biz_leave() { 
+ 		super(); 
+ 	}  
